@@ -26,6 +26,7 @@ data(survival)
 Survplot(score, survival)
 survival2 <- survival
 survival2$time <- survival2$time / 365
+library(survival)
 TimeROC(score, survival2)
 Corrplot(score, exprSet, "CD274")
 ## basic example code
