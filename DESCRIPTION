@@ -1,0 +1,27 @@
+Package: TIMEscore
+Title: Calculating TIMEscore and performing visualization
+Version: 0.0.1
+Authors@R: person("Nan", "Zhang", email = "awekevin@onethird-lab.com", role  = c("aut", "cre"))
+Description: Calculating TIMEscore for every sample.
+Depends: R (>= 3.6.0)
+License: Artistic-2.0
+Encoding: UTF-8
+LazyData: true
+Language: en-US
+Imports:
+    dplyr,
+	stringr,
+	tibble,
+	ggplot2,
+	survival,
+	survminer,
+	timeROC,
+	ggpubr,
+	methods
+Suggests: 
+    spelling,
+    knitr,
+    rmarkdown,
+    testthat
+RoxygenNote: 7.1.2
+VignetteBuilder: knitr
